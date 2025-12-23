@@ -823,6 +823,10 @@ article.active {
     font-size: var(--fs7);
     font-weight: var(--fw300);
 }
+.github12{
+    width: 50px;
+    height: 100px;
+}
 
 .skills-progress-bg {
     background: var(--jet);
@@ -914,8 +918,10 @@ article.active {
 
 .project-item.active {
     display: block;
+
     animation: scaleUp .25s ease forwards;
 }
+
 
 @keyframes scaleUp {
     0% {
